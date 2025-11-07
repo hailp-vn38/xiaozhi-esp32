@@ -25,6 +25,9 @@ source esp_env.sh
 # Method 1: Using idf.py
 idf.py build
 
+idf.py menuconfig
+
+
 # Method 2: Using VS Code (Ctrl+Shift+B)
 # Chọn task "idf_build"
 ```

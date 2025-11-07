@@ -65,7 +65,7 @@ set(BUILTIN_ICON_FONT font_awesome_14_1)
 # Set default assets if the board uses partition table V2
 if(CONFIG_BOARD_TYPE_BREAD_COMPACT_WIFI)
     set(BOARD_TYPE "bread-compact-wifi")
-    set(BUILTIN_TEXT_FONT font_puhui_basic_14_1)
+    set(BUILTIN_TEXT_FONT font_puhui_basic_12_4)
     set(BUILTIN_ICON_FONT font_awesome_14_1)
 elseif(CONFIG_BOARD_TYPE_BREAD_COMPACT_ML307)
     set(BOARD_TYPE "bread-compact-ml307")
